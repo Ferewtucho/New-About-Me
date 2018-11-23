@@ -177,8 +177,12 @@ P {
 font-size: 3rem;
 }
 .welcome {
-    width:100% !important;
-    height: 100% !important;
+    background: url("../img/welcome.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
 }
 .me {
     width: 100%;
