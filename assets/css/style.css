@@ -99,7 +99,7 @@ i {
     padding: 10px 0;
     margin-bottom: 44px;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     line-height: 1.2;
 }
 .about2 {
