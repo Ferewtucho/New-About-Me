@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,23 +7,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Fontawsome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <!-- Devicon  -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- jquery CDNs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
-    <!--  -->
+    <!--aos css  -->
     <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- css  -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--  -->
 
-
+    <!-- Scroll effect jquery for nav -->
     <script type="text/javascript">
 
         $(window).on("scroll", function () {
@@ -40,10 +48,14 @@
                 $("ul").removeClass(".liC");
             }
         });
+
     </script>
 </head>
 
 <body>
+
+    <!-- Nav Bar -->
+
     <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -61,9 +73,11 @@
                     <li><a href="#contact" class="scroll-trigger">CONTACT ME</a></li>
                 </ul>
             </div>
-            <!--/.navbar-collapse -->
         </div>
     </nav>
+
+    <!-- Hero -->
+
     <div class="jumbotron sect welcome jumbotron-bg" id="intro" data-aos="zoom-out-right">
         <div class="top" data-aos="fade-up">
             <h1>Ferew Tucho</h1>
@@ -76,6 +90,9 @@
             </a>
         </div>
     </div>
+
+    <!-- About me -->
+
     <div class="conatainer">
         <div class="jumbotron subSection" id="about" class="aos-init">
             <div class="container about">
@@ -105,11 +122,13 @@
         </div>
     </div>
 
+    <!-- Skill -->
+
     <div class="conatainer skill2" style="height: auto">
         <div class="jumbotron sect" id="skills">
             <div class="section">
                 <div class="container" style="text-align: center;">
-                    <h1 class="title">Skills</h1>
+                    <h1 class="title" data-aos="fade-down">Skills</h1>
                     <br>
                     <br>
                     <div class="row">
@@ -167,8 +186,10 @@
         </div>
     </div>
 
+    <!--Portfolio -->
+
     <div class="jumbotron subSection" id="portfolio">
-        <h1 style="text-align: center; margin-top: 100px;">PORTFOLIO</h1>
+        <h1 style="text-align: center; margin-top: 100px;" data-aos="fade-down">PORTFOLIO</h1>
         <br><br><br><br><br>
         <div class="container">
             <div class="row">
@@ -409,6 +430,8 @@
     </div>
     </div>
     <br>
+
+    <!-- Footer -->
     <div class="jumbotron sect" id="contact" style="height: 50%; color: #ffffff; position: relative; bottom: 0; left: 0; width: 100%; display: inline-block">
         <div class="container" style="text-align: center" data-aos="fade-down">
             <h2 style="color: #e0684b ">Don’t be a stranger<span style="color:#ffffff">, "just say hello”</span> </h2>
@@ -430,13 +453,21 @@
 
     </div>
 
+    <!-- Aos javascript link -->
+
     <script src="assets/js/aos.js"></script>
 
+    <!-- Set animation duration time also it will stop animation on mobile devices for better user expriance -->
+
     <script type=text/javascript> AOS.init({ duration: 1600, }); $(function() { AOS.init({ disable: 'mobile' }); }); //
-        window.addEventListener('load', AOS.refresh); </script> <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src = "assets/js/time.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+        window.addEventListener('load', AOS.refresh); </script> <!-- Javascript link -->
+
+    <script src = "assets/js/time.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
