@@ -90,7 +90,7 @@ i {
   background-color: rgba(0, 0, 0, 0);
   padding-top: 25px;
   height: 100px;
-  width: 100%;
+  width: auto;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -293,5 +293,10 @@ p {
   }
   #contact {
     height: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #main-nav {
+    width: 320px;
   }
 }
