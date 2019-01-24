@@ -46,7 +46,8 @@ h4,
   color: black !important;
 }
 .welcome {
-  background-image: url("../img/welcome.jpg");
+  background-image: url("../img/abay.jpg");
+  background-size: cover;
   text-align: center;
   background-blend-mode: soft-light soft-light;
   background-attachment: fixed;
@@ -276,7 +277,8 @@ p {
     font-size: 3rem;
   }
   .welcome {
-    background: url("../img/welcome.jpg") no-repeat center center fixed;
+    background-image: url("../img/abay.jpg");
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
