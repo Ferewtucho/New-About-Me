@@ -10,6 +10,14 @@ body {
     margin: 0; */
   /* overflow-x: hidden; */
 }
+nav li a {
+  color: #900020 !important;
+}
+
+p {
+  color: #900020 !important;
+}
+
 .jumbotron {
   margin-bottom: 0px;
   /* text-align: center; */
