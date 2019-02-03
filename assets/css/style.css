@@ -143,6 +143,7 @@ p {
 
 .navbar-toggle {
   background-color: #110e17;
+  margin-bottom: 0px !important;
   color: #fefefe;
 }
 #skills h4 {
@@ -256,7 +257,6 @@ p {
   }
 
   #main-nav {
-    border-color: #e0684b;
     background-color: #e0684b;
     background-color: #110e17;
     width: auto;
