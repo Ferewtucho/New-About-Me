@@ -106,19 +106,14 @@ i {
   transition: all 0.2s;
 }
 .about {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 20px;
-  display: block;
+  float: left;
   font-size: 36px;
   font-weight: 100;
   padding: 10px 0;
   margin-bottom: 44px;
-  text-align: center;
-  /* text-transform: uppercase; */
   line-height: 1.2;
-}
-.about2 {
-  text-align: center !important;
 }
 p {
   margin: 0 0 10px;
