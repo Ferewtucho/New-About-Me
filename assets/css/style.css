@@ -12,11 +12,11 @@ body {
   /* overflow-x: hidden; */
 }
 nav li a {
-  color: #900020 !important;
+  color: #ffffff !important;
 }
 
 p {
-  color: #900020 !important;
+  color: #ffffff !important;
 }
 
 .jumbotron {
@@ -25,7 +25,7 @@ p {
 }
 .sect {
   height: 100%;
-  background-color: #2a2a2a !important;
+  background-color: #28262e !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: relative;
@@ -131,7 +131,7 @@ p {
 }
 .scrollNav {
   border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
-  background-color: #ffffff !important;
+  background-color: #28262e !important;
   padding-top: 0 !important;
   font-size: 1em;
   /* color: black !important; */
@@ -148,7 +148,7 @@ p {
 }
 
 .navbar-toggle {
-  background-color: red;
+  background-color: #110e17;
   color: #fefefe;
 }
 #skills h4 {
@@ -268,19 +268,19 @@ p {
     width: auto;
     height: 50px;
     padding-top: 0px;
-    color: black;
+    color: #ffffff;
   }
   p {
     font-size: 16px !important;
   }
   .navbar-inverse .navbar-collapse {
-    background-color: #ffffff;
+    background-color: #28262e;
   }
   .navbar-brand {
-    color: #e0684b !important;
+    color: #110e17 !important;
   }
   .scroll-trigger {
-    color: black !important;
+    color: #ffffff !important;
   }
   .jumbotron .container h1 {
     font-size: 3rem;
