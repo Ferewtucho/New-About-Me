@@ -1,0 +1,9 @@
+#particles-js {
+  background: #110e17;
+  height: 100%;
+}
+#particles-js,
+h1,
+p {
+  color: #ffffff;
+}
