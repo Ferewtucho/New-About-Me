@@ -1,7 +1,7 @@
 # Portofolio
 
 Personal website <a href ="http://ferewtucho.me" target = "_blank">ferewtucho.me<a>
-<br>
+<hr>
 Technology Used:-
 <ul>
 <li>HTML5</li>
