@@ -270,8 +270,7 @@ p {
   }
 
   #main-nav {
-    background-color: #e0684b;
-    background-color: #110e17;
+    background-color: rgba(0, 0, 0, 0);
     width: auto;
     height: 50px;
     padding-top: 0px;
