@@ -47,7 +47,6 @@ $(document).ready(function() {
     $('html, body').animate({
       scrollTop: $(linkHref).offset().top - navHeight
     }, 1000);
-   
 
     e.preventDefault();
 
