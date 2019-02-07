@@ -27,3 +27,29 @@ $(window).on("scroll", function() {
     $("ul").removeClass(".liC");
   }
 });
+
+// smooth scroll jQuery
+$(document).ready(function() {
+
+  var navHeight = $('nav').outerHeight();
+
+  $(".scroll-trigger").click(function(e) {
+    e.preventDefault();
+
+    var linkHref = $(this).attr("href");
+    // console.log(linkHref);
+    // console.log($(linkHref).offset().top)
+
+    // $("html, body").animate({
+    //   scrollTop: $(linkHref).offset().top
+    // })
+
+    $('html, body').animate({
+      scrollTop: $(linkHref).offset().top - navHeight
+    }, 1000);
+   
+
+    e.preventDefault();
+
+  })
+})
