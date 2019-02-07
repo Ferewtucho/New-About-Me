@@ -14,23 +14,22 @@ if (hourNow > 18) {
 
 document.getElementById("greeting").innerHTML = greeting;
 
+// Scroll effect jquery for nav
+$(window).on("scroll", function () {
+  if ($(window).scrollTop()) {
+    $("nav").addClass("scrollNav");
+    $(".navbar-header").addClass("navbar-brand2");
+    $("ul").addClass(".liC");
+  } else {
+    $("nav").removeClass("scrollNav");
+    $(".navbar-header").removeClass("navbar-brand2");
+    $("ul").removeClass(".liC");
+  }
+});
+
 // smooth scroll jQuery
 $(document).ready(function () {
 
-  // Scroll effect jquery for nav
-  $(window).on("scroll", function () {
-    if ($(window).scrollTop()) {
-      $("nav").addClass("scrollNav");
-      $(".navbar-header").addClass("navbar-brand2");
-      $("ul").addClass(".liC");
-    } else {
-      $("nav").removeClass("scrollNav");
-      $(".navbar-header").removeClass("navbar-brand2");
-      $("ul").removeClass(".liC");
-    }
-  });
-
-  // Scroll animation
   var navHeight = $('nav').outerHeight();
 
   $(".scroll-trigger").click(function (e) {
