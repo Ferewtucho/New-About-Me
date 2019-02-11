@@ -33,7 +33,6 @@ $(document).ready(function () {
 
 
   $(".scroll-trigger").click(function (e) {
-    e.preventDefault();
 
     var linkHref = $(this).attr("href");
     // console.log(linkHref);
@@ -42,7 +41,6 @@ $(document).ready(function () {
     $('html, body').animate({
       scrollTop: $(linkHref).offset().top
     }, 1000);
-
 
     e.preventDefault();
 
