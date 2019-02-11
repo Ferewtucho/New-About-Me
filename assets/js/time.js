@@ -21,7 +21,7 @@ $(window).on("scroll", function() {
     $("nav").addClass("scrollNav");
     $(".navbar-header").addClass("navbar-brand2");
     $("ul").addClass(".liC");
-  } else {
+  }  else {
     $("nav").removeClass("scrollNav");
     $(".navbar-header").removeClass("navbar-brand2");
     $("ul").removeClass(".liC");
@@ -47,4 +47,12 @@ $(document).ready(function() {
     e.preventDefault();
 
   })
+
+  $(".bars, .scroll-trigger").click (function () {
+    if (!$(this).hasClass("xicon")) {
+     $(this).addClass("xicon");
+    } else {
+     $(this).removeClass("xicon");
+    }
+ })
 })

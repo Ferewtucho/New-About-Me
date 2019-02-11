@@ -54,18 +54,86 @@ h4,
   height: 100% !important;
   width: 100%;
 }
+.bars{
+  height: 40px;
+  width: 40px;
+  background:  #333;
+  border-radius: 100%;
+}
+.bars span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.bars, .bars span {
+  transition: 1s;
+}
+
+.bars.xicon{
+  transform: rotate(360deg);
+}
+
+.bars.xicon span:nth-child(1) {
+  transform: rotate(45deg) translateX(3px) translateY(3px)
+}
+
+.bars.xicon span:nth-child(2) {
+  opacity: 0 ;
+}
+
+.bars.xicon span:nth-child(3) {
+  transform: rotate(-45deg) translateX(2px) translateY(-1px)
+
+}
+
 .liC {
   background-color: #e0684b;
   color: black !important;
 }
-/* .welcome {
-  background-image: url("../img/abay.jpg");
-  background-size: cover;
-  text-align: center;
-  background-blend-mode: soft-light soft-light;
-  background-attachment: fixed;
-  height: 100%;
-} */
+#main-nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 25px;
+  height: 100px;
+  width: auto;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.scrollNav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
+  background-color: #28262e !important;
+  padding-top: 0 !important;
+  font-size: 1em;
+  /* color: black !important; */
+  height: 50px !important;
+  padding-top: 0px !important;
+}
+.navbar-brand {
+  font-size: 4em;
+  font-weight: 700;
+}
+.brand {
+  font-size: 0.9em !important;
+  padding-top: 0 !important;
+}
+
+.navbar-toggle {
+  background-color: #110e17;
+  margin-bottom: 0px !important;
+  color: #fefefe;
+}
 .top {
   width: 300px;
   /* background-color: #110e17; */
@@ -114,16 +182,6 @@ i {
     transform: translateY(-15px);
   }
 }
-#main-nav {
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  background-color: rgba(0, 0, 0, 0);
-  padding-top: 25px;
-  height: 100px;
-  width: auto;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
 .about {
   padding-top: 20px;
   float: left;
@@ -142,29 +200,7 @@ p {
 .port {
   transition: transform 0.2s; /* Animation */
 }
-.scrollNav {
-  border-bottom: 1px solid rgba(0, 0, 0, 0) !important;
-  background-color: #28262e !important;
-  padding-top: 0 !important;
-  font-size: 1em;
-  /* color: black !important; */
-  height: 50px !important;
-  padding-top: 0px !important;
-}
-.navbar-brand {
-  font-size: 4em;
-  font-weight: 700;
-}
-.brand {
-  font-size: 0.9em !important;
-  padding-top: 0 !important;
-}
 
-.navbar-toggle {
-  background-color: #110e17;
-  margin-bottom: 0px !important;
-  color: #fefefe;
-}
 #skills h4 {
   margin-bottom: 40px;
 }
