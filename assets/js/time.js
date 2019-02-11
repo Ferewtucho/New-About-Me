@@ -16,12 +16,12 @@ document.getElementById("greeting").innerHTML = greeting;
 
 // Scroll effect jquery for nav
 
-$(window).on("scroll", function() {
+$(window).on("scroll", function () {
   if ($(window).scrollTop()) {
     $("nav").addClass("scrollNav");
     $(".navbar-header").addClass("navbar-brand2");
     $("ul").addClass(".liC");
-  }  else {
+  } else {
     $("nav").removeClass("scrollNav");
     $(".navbar-header").removeClass("navbar-brand2");
     $("ul").removeClass(".liC");
@@ -29,10 +29,10 @@ $(window).on("scroll", function() {
 });
 
 // smooth scroll jQuery
-$(document).ready(function() {
+$(document).ready(function () {
 
 
-  $(".scroll-trigger").click(function(e) {
+  $(".scroll-trigger").click(function (e) {
     e.preventDefault();
 
     var linkHref = $(this).attr("href");
@@ -40,7 +40,7 @@ $(document).ready(function() {
     // console.log($(linkHref).offset().top)
 
     $('html, body').animate({
-      scrollTop: $(linkHref).offset().top 
+      scrollTop: $(linkHref).offset().top
     }, 1000);
 
 
@@ -48,11 +48,11 @@ $(document).ready(function() {
 
   })
 
-  $(".bars, .scroll-trigger").click (function () {
+  $(".bars, .scroll-trigger").click(function () {
     if (!$(this).hasClass("xicon")) {
-     $(this).addClass("xicon");
+      $(this).addClass("xicon");
     } else {
-     $(this).removeClass("xicon");
+      $(this).removeClass("xicon");
     }
- })
+  })
 })
