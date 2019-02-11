@@ -48,7 +48,7 @@ $(document).ready(function () {
 
   })
 
-  $(".bars, .scroll-trigger").click(function () {
+  $(".bars").click(function () {
     if (!$(this).hasClass("xicon")) {
       $(this).addClass("xicon");
     } else {
