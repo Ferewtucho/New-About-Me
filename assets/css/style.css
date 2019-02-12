@@ -7,9 +7,8 @@ body {
   height: 100%;
   font-family: "Playfair Display", serif;
   background-color: #110e17;
-  /* padding: 0;
-    margin: 0; */
-  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
 }
 nav li a {
   color: #ffffff !important;
@@ -36,9 +35,14 @@ h2 {
   background-position: center;
   background: transparent;
 }
+
 .section {
   max-height: 100%;
 }
+p {
+  font-size: 16px !important;
+}
+
 h4,
 .title {
   color: #ffffff !important;
@@ -46,7 +50,7 @@ h4,
 .subSection {
   /* height: 100%; */
   width: 100%;
-  background-color: #110e17;
+  background-color: #1d1e3d;
   margin: 0;
   z-index: -999;
 }
@@ -136,10 +140,11 @@ h4,
   color: #fefefe;
 }
 .top {
-  width: 300px;
+  width: 320px;
+  background-color: rgba(17,14,23, 0.16);
   /* background-color: #110e17; */
   margin-top: auto;
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -212,8 +217,6 @@ p {
 
 #hovereffect {
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
   transform: translate(-50%, -50%);
 }
 
@@ -221,8 +224,8 @@ p {
   background: none;
   color: #ccc;
   width: 150px;
-  height: 60px;
-  border: 1px solid #338033;
+  height: 40px;
+  border: 1px solid grey;
   font-size: 18px;
   border-radius: 4px;
   transition: 0.6s;
@@ -259,7 +262,7 @@ p {
   transform: translate(-100px) scaleX(-15deg);
 }
 #hovereffect:hover {
-  background: #338033;
+  background: grey;
   cursor: pointer;
 }
 
@@ -274,33 +277,6 @@ p {
   transition: 0.7s;
 }
 
-.myButton {
-  text-align: center;
-  position: relative;
-}
-.myButton:after {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 0%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: none;
-  -moz-transition: none;
-  -ms-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-.myButton:hover:after {
-  width: 120%;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
 
 @media only screen and (max-width: 960px) {
   html,
@@ -318,6 +294,9 @@ p {
     height: 50px;
     padding-top: 0px;
     color: #ffffff;
+    -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
   }
   p {
     font-size: 16px !important;
@@ -340,7 +319,7 @@ p {
     height: auto !important;
   }
   #contact {
-    height: 100%;
+    height: 28% !important;
   }
 }
 

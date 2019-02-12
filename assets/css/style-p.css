@@ -1,6 +1,15 @@
 #particles-js {
-  background: #110e17;
+  /* background: #110e17; */
+  background: url("../img/star.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(17,14,23, 0.6);
+  background-blend-mode: multiply; 
+  text-align: center;
   height: 100%;
+  font-family: 'Oswald', monospace;
 }
 #particles-js,
 h1,
