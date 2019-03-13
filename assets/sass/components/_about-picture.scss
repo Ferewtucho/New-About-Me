@@ -1,0 +1,31 @@
+.about-picture {
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 15rem;
+
+  @include respond(small-p) {
+    padding-left: 10rem;
+  }
+
+  &__photo {
+    width: 90%;
+    border-radius: 2px;
+    // position: absolute;
+    outline-offset: 1rem;
+    box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    transition: all 0.2s;
+
+    @include respond(tab-port) {
+      float: left;
+      position: relative;
+      width: 140%;
+      right: 46%;
+    }
+
+    &:hover {
+      outline: 0.1rem solid $color-primary;
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+    }
+  }
+}

@@ -2,624 +2,604 @@
 <html lang="en">
 
 <head>
-    <title>Ferew Tucho</title>
-    <link rel="icon" type="image/png" href="assets/img/icon.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
 
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <!-- Fontawsome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-    <!-- Devicon  -->
+    <!-- Devi Icons -->
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-    <!-- jquery CDNs -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
-
-    <!--aos css  -->
+    <!-- Aos css -->
     <link rel="stylesheet" href="assets/css/aos.css">
 
-    <!-- Particles css -->
-    <link rel="stylesheet" href="assets/css/style-p.css">
-
-    <!-- css  -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 
+    <title>Ferew Tucho</title>
 </head>
 
-
 <body>
-
-    <!-- Nav Bar -->
-
-    <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class=" bars navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <a class="navbar-brand scroll-trigger" href="#particles-js"><img
-                        src="assets/img/lion-logo-design-png-7.png" alt="lion"
-                        style="background-color: #ffffff; border-radius: 50%"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about"
-                            class="scroll-trigger">ABOUT ME</a></li>
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#skills"
-                            class="scroll-trigger">SKILLS</a></li>
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#portfolio"
-                            class="scroll-trigger">PORTFOLIO</a></li>
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#education"
-                            class="scroll-trigger">EDUCATION</a></li>
-                    <!-- <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact"
-                            class="scroll-trigger">CONTACT ME</a></li> -->
-                </ul>
-            </div>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <!-- Logo -->
+        <div class="navigation__logo">
+               <a href="#particles-js" class = "scroll-trigger"><img src="assets/img/logo.png" alt="logo" class="navigation__logo-img "></a>
         </div>
+        <ul class="navigation__list">
+            <li class="navigation__item "><a href="#about" class="navigation__link scroll-trigger">About</a></li>
+            <li class="navigation__item "><a href="#skills" class="navigation__link scroll-trigger">Skills</a></li>
+            <li class="navigation__item "><a href="#portfolio" class="navigation__link scroll-trigger">Portfolio</a></li>
+        </ul>
     </nav>
+    
+          
+    <!-- Header -->
+    <header class="header" id="particles-js">
+        <!-- Header Text -->
+        <div class="header__text">
+            <h1 class="header-primary">
+                <span class="header-primary--main">Ferew Tucho</span>
+                <span class="header-primary--sub">Full Stack Developer</span>
+            </h1>
 
-    <div id="particles-js">
-        <div class="top">
-            <h1 data-aos="flip-down" style="font-size: 5.5rem">Ferew Tucho</h1>
-            <h3>Full Stack Web-Developer</h3>
-            <span><a href="https://www.linkedin.com/in/ferew-tucho-627880167/" target="_blank"><i
-                        class="fab fa-linkedin fa-2x"
-                        style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.16); color: #2f77b0"> </i> </a>
-            </span> <span> <a href="https://github.com/Ferewtucho" target="_blank"><i class="fab fa-github-alt fa-2x"
-                        style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.16)"></i></a></span>
-            <br><br>
-            <div class="arrow bounce scroll-trigger">
-                <h4>Learn more</h4>
-                <a class="scroll-trigger" href="#about">
-                    <i class="fa fa-chevron-down"></i>
-                </a>
-            </div>
+            <!-- Header Buttons -->
+            <a href="https://github.com/Ferewtucho" target="_blank" class="btn btn--animated btn--git">Github <i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ferew-tucho-627880167/" target="_blank"class="btn btn--animated btn--link">Linked <i class="fab fa-linkedin-in"></i></a>
         </div>
-    </div>
 
-    <!-- Hero -->
-    <div class="conatainer" style="background-color: #1d1e3d">
-        <div class="jumbotron subSection" id="about" class="aos-init">
-            <div class="container">
-                <div class="about">
-                    <h1 class="title" data-aos="fade-down"
-                        style="border-bottom: solid #fff; width: 300px; margin: auto; padding-bottom: 20px;text-align: center; ">
-                        About Me
-                    </h1>
+    </header>
 
+    <!-- Main  -->
+    <main>
+        <!-- About Section -->
+        <section class="section-about" id = "about">
+
+            <div class="u-center-text u-margin-bottom-medium" >
+                <h2 class="heading-secondary">
+                    About Me
+                </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-2">
+                    <div class="about-picture">
+                        <img src="assets/img/about-me.png" alt="Me" class="about-picture__photo">
+        
+                    </div>
+                </div>
+
+                <div class="col-1-of-2">
+
+                    <h3 class=" heading-tertiary u-margin-bottom-small">👋 Hi! I'm Ferew (Frey) </h3>
+
+                    <p class="paragraph">As a
+                        self-taught coder, I decided to join University of Pennsylvania Bootcamp in
+                        order to
+                        advance my expertise in web
+                        development. After completing the bootcamp and receiving my certificate, the
+                        bootcamp had only
+                        increased my passion for coding and web developing, it allowed me to design
+                        websites
+                        and
+                        actively seek new programing knowledge. </p>
                     <br>
+                    <p class="paragraph">Prior to me being fully invested in web development, I worked as a zone
+                        manager at
+                        Paradies Lagardère. From that experience, I
+                        learned to value efficient communication skills, personally and in the work
+                        place.
+                        To interact
+                        with others in a team and as a leader provides a vast set of learning
+                        experiences.
+                        I've learned
+                        first hand how to lead without excessive authority, in order to appeal to
+                        all
+                        members of a team
+                        and support them without flailing power, or demanding respect, instead of
+                        simply
+                        developing it.
+                        Understanding people as individual persons creates a productive team and
+                        creative
+                        leader which
+                        is what I try to create. I want to be able to take my experience and my
+                        values to my
+                        next
+                        journey in life as a web developer. </p>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="assets/img/about-me.png" data-aos="zoom-in" class="me" alt="Ferew Tucho"
-                                style="margin-bottom: 20px;border-radius: 6px;box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-                            <br><br>
+                    <a href="#" class="btn-text" onclick="window.open('assets/img/Ferew-Tucho.pdf')" target="_blanck">Click
+                        Here to View My
+                        Resume &larr;</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="skill" id="skills">
+
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="assets/img/skill.mp4" type="video/mp4" />
+                    Your browser is not supported!!
+                </video>
+            </div>
+
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                    Skill
+                </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-html5-plain skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">HTML5</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-css3-plain skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">CSS3</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-sass-original skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">SASS</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-javascript-plain skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">JAVASCRIPT</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-react-original skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">REACT</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <!-- <i class="fab fa-node"></i> -->
+                        <i class="fab fa-node skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">NODE</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-mongodb-plain skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">MONGODB</h3>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="devicon-mysql-plain skill-box__icon"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">MYSQL</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Cards -->
+
+        <section class="sections-project" id="portfolio">
+
+            <div class="u-center-text u-margin-buttom-big">
+                <h2 class="heading-secondary">
+                    Portfolio
+                </h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">
+                                    Student Developers Connect
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Student Developers Connect is a full stack app, where developers learn, share
+                                        their knowledge and develop new skills. </li>
+                                    <li>Built with HTML5, CSS3, Bootstrap 4 , ES6, React.js, Redux, Node.js, Express,
+                                        MongoDB.</li>
+                                    <li> <a href="https://mysterious-savannah-24245.herokuapp.com/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/Student-Developers-Connect" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <div data-aos="slide-up">
-                                <p>Hi, I'm Ferew Tucho and I'm a Full Stack Developer.<p>
+                    </div>
+                </div>
 
-                                        <p>As a
-                                            self-taught coder, I decided to join University of Pennsylvania Bootcamp in
-                                            order to
-                                            advance my expertise in web
-                                            development. After completing the bootcamp and receiving my certificate, the
-                                            bootcamp had only
-                                            increased my passion for coding and web developing, it allowed me to design
-                                            websites
-                                            and
-                                            actively seek new programing knowledge. </p>
+                <div class="col-1-of-3" data-aos="fade-down">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
 
-                                        <p>Prior to me being fully invested in web development, I worked as a zone
-                                            manager at
-                                            Paradies Lagardère. From that experience, I
-                                            learned to value efficient communication skills, personally and in the work
-                                            place.
-                                            To interact
-                                            with others in a team and as a leader provides a vast set of learning
-                                            experiences.
-                                            I've learned
-                                            first hand how to lead without excessive authority, in order to appeal to
-                                            all
-                                            members of a team
-                                            and support them without flailing power, or demanding respect, instead of
-                                            simply
-                                            developing it.
-                                            Understanding people as individual persons creates a productive team and
-                                            creative
-                                            leader which
-                                            is what I try to create. I want to be able to take my experience and my
-                                            values to my
-                                            next
-                                            journey in life as a web developer. </p>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">
+                                    r.roulette
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>r.roulette is a full stack app created to help alleviate debate and indecision
+                                        about where a group of friends or coworkers should have food or drinks, etc</li>
+                                    <li>Built with HTML5, CSS3, Bootstrap 4, JavaScript, Node.js, Express, Sequelize,
+                                        Bootstrap, MySQL, Cookie-Session, Passport-Google-OAUTH20, MongoDB, Aos.css and
+                                        mLab, Yelp API, Google API.</li>
+                                    <li> <a href="https://arcane-citadel-23385.herokuapp.com/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/Full-Stack-Project" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">
+                                    Tripster
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Tripster is a frontend app that lets users search flights by region to discover
+                                        hotels based on the closest proximity. </li>
+                                    <li>Built with HTML5, CSS3, Bootstrap 4, JavaScript, JQuery, Amadeus API, Google
+                                        Maps API.</li>
+                                    <li> <a href="https://aschlegel09.github.io/Project-One/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/Project-One" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Skill -->
-
-    <div class="conatainer skill2" style="height: auto">
-        <div class="jumbotron sect" id="skills">
-            <div class="section">
-                <div class="container" style="text-align: center; margin-bottom: 10px; margin-top: 20px">
-
-                    <h1 class="title" data-aos="fade-down"
-                        style="border-bottom: solid #fff; width: 300px; margin: auto; padding-bottom: 20px; ">Skills
-                    </h1>
-
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-html5-plain devicons fa-3dicon"></i>
-                            <h4>HTML5</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-css3-plain devicons fa-3dicon"></i>
-                            <h4>CSS3</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-javascript-plain devicons fa-3dicon"></i>
-                            <h4>JavaScript</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-react-original devicons fa-3dicon"></i>
-                            <h4>React</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-nodejs-plain devicons fa-3dicon"></i>
-                            <h4>Node.js</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-mysql-plain devicons fa-3dicon"></i>
-                            <h4>MySQL</h4>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3 icon-block" data-aos="fade-in">
-                            <i class="devicon-mongodb-plain devicons fa-3dicon"></i>
-                            <h4>MongoDB</h4>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Portfolio -->
-
-    <div class="jumbotron subSection" id="portfolio" style="margin-bottom: 5px">
-        <div class="container ">
-            <h1 class="title" data-aos="fade-down"
-                style="border-bottom: solid #fff; width: 300px; margin: auto; padding-bottom: 20px;text-align: center;" ">Portofolio</h1>
-            <br><br>
-            <div class=" row">
-                <div class="col-md-6">
-                    <img src="assets/img/social.jpg" data-aos="fade-down" alt="social"
-                        style="width: 100%;height: auto; border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-                </div>
-                <div class="col-md-6" data-aos="fade-up">
-                    <h2 style="margin-top: 0 !important;color: #ffffff">Student Developers Connect </h2>
-                    <br>
-                    <p style="font-size: 16px">Student Developer Connector is full stack app.Its the easiest, trusted
-                        online community for developers to ask coding problems, learn, share their knowledge to others,
-                        and develop new skills.</p>
-                    <p style="font-size: 16px">Built with HTML5, CSS3, Javascript, ES6, React.js, Redux, Node.js,
-                        Express, and MongoDB.</p>
-                    <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                            href="https://mysterious-savannah-24245.herokuapp.com/" target="_blank">click to
-                            try</a></button>
-                    <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                            href="https://github.com/Ferewtucho/Student-Developers-Connect" target="_blank">Click to see
-                            the Code</a></button>
-                </div>
-
-                <br><br>
-        </div>
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/r.roulettejpg.jpg" data-aos="fade-down" class="port" alt="r.roulette"
-                    style="width: 100%;
-                    height: auto; border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">r.roulette </h2>
-                <br>
-                <p style="font-size: 16px">An app created to help alleviate debate and indecision about where a
-                    group of friends or coworkers should have food or drinks, etc.</p>
-                <p style="font-size: 16px">
-                    The app will takes input from all members of group to randomly decide where the group should
-                    eat or drink.</p>
-                <p style="font-size: 16px">Built with HTML5, CSS3, Javascript, Node.js, Express, Sequelize,
-                    Bootstrap, MySQL,
-                    Cookie-Session, Passport-Google-OAUTH20, MongoDB, Aos.css and mLab.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://arcane-citadel-23385.herokuapp.com/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/Full-Stack-Project" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-
-            <br><br>
-        </div>
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/project-1.jpg" data-aos="fade-down" class="port" alt="tripster"
-                    style="width: 100%;
-                height: auto; border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Tripster </h2>
-                <br>
-                <p style="font-size: 16px">A travel itinerary using
-                    Amadeus API, Google Maps, Hotels, and a Directions API's. User can search flights by
-                    region,look up hotels based on which city they're flying into and find the fastest
-                    directions to the hotel of choice.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://aschlegel09.github.io/Project-One/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/Project-One" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-
-            <br><br>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/eat-da-burger.jpg" data-aos="fade-down" class="port" alt="soon"
-                    style="width: 100%;
-                            height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Eat-Da-Burger!</h2>
-                <br>
-                <p style="font-size: 16px">Eat-Da-Burger! is a restaurant app that lets users input the names of
-                    burgers they'd like to
-                    eat.</p>
-                <p style="font-size: 16px">Developed using HTML5, CSS3, NodeJS, MySQL, Express, method-override,
-                    Handlebars, JavaScript, jQuery
-                    and Bootstrap.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://nameless-bayou-23172.herokuapp.com/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/burger" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/friend-finder.jpg" data-aos="fade-down" class="port" alt="train"
-                    style="width: 100%;height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Friend Finder</h2>
-                <br>
-                <p style="font-size: 16px">Node, express app that finds friend matches after taking 10 question
-                    survey.</p>
-                <p style="font-size: 16px">Built with HTML5, CSS3, JavaScript, Jquery, Express, Path, Body-parser,
-                    Node.JS and
-                    MysQl Database.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://warm-headland-58753.herokuapp.com/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/FriendFinder" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/train.jpg" data-aos="fade-down" class="port" alt="train"
-                    style="width: 100%;
-                        height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important ;color: #ffffff">Train Scheduler </h2>
-                <br>
-                <p style="font-size: 16px">train schedule application
-                    that incorporates Firebase to host arrival and departure data. The app will retrieve
-                    and manipulate this information with Moment.js, and will provide up-to-date information
-                    about various trains, namely their arrival times and how many minutes remain until they
-                    arrive at their station.</p>
-                <p style="font-size: 16px">Built with Firebase JavaScript jQuery HTML5 CSS3</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://ferewtucho.github.io/Train-Scheduler/" target="_blank">click to
-                        try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/Train-Scheduler" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-
-        </div>
-
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-
-            <div class="col-md-6">
-                <img src="assets/img/giphy.gif" data-aos="fade-down" class="port" alt="giphy"
-                    style=" width: 100%;
-                            height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Giphy</h2>
-                <br>
-                <p style="font-size: 16px">This app displays buttons
-                    related to a certain topic and allows you to add search terms
-                    to generate additional buttons that when clicked, accesses the GIPHY API and generates
-                    25 static GIPHY images. Click on an image to pause or play the GIF.</p>
-
-                <p style="font-size: 16px">Used HTML • CSS • Bootstrap • JavaScript to make the page dynamic •
-                    jQuery for Dom
-                    Manipulation
-                    • AJAX for API GET requests.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://ferewtucho.github.io/Giphy/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/Giphy" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6" style="background: transparent;">
-                <img src="assets/img/trivia.jpg" data-aos="fade-down" class="port"
-                    style="background-blend-mode: soft-light soft-light; background-attachment: fixed;width: 100%;
-                                        height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" alt="eagles">
-            </div>
-            <!-- <br> -->
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Black History Trivia Game</h2>
-                <br>
-                <p style="font-size: 16px">Answer 10 questions as quickly and
-                    efficiently as possible. Players have 20 seconds to
-                    answer each multiple choice question.
-                    The game let’s you know if the answer was correct, incorrect or unanswered.
-                    At the end you get a count of your Right, Wrong and Unanswered questions.you can click
-                    on the restart button to play agian.</p>
-                <p style="font-size: 16px">Built by JavaScript jQuery HTML5 CSS3</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://ferewtucho.github.io/TriviaGame/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/TriviaGame" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-            <br>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="row">
-            <div class="col-md-6" style="background: transparent;">
-                <img src="assets/img/nfl-hangman.jpg" data-aos="fade-down" class="port"
-                    style="background-blend-mode: soft-light soft-light; background-attachment: fixed;width: 100%;
-                            height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" alt="eagles">
-            </div>
-            <!-- <br> -->
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">NFL Hang Man</h2>
-                <br>
-                <p style="font-size: 16px">This is a simple hangman game
-                    To play, just guess a letter by typing
-                    your guess on your keyboard. If you guess incorrectly 9 times, you lose. If you guess
-                    the word before that happens, you win. After you win or lose, you can continue the game
-                    by pressing any key on the keyboard.</p>
-                <p style="font-size: 16px"> It was written in Javascript,
-                    without any libraries or APIs. </p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://ferewtucho.github.io/Word-Guess-Game/" target="_blank">click to
-                        try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/Word-Guess-Game" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-            <br>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-
-
-
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img/star-war.jpg" data-aos="fade-down" class="port" alt="kilo"
-                    style="width: 100%;
-                    height: auto;border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-                <h2 style="margin-top: 0 !important;color: #ffffff">Star wars RPG Game</h2>
-                <br>
-                <p style="font-size: 16px">Star Wars Themed role playing game created
-                    by using Javascript, JQuery, HTML & CSS
-
-                    When the game starts, the player will choose a character by clicking on the fighter's
-                    picture. The player will fight as that character for the rest of the game.</p>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://ferewtucho.github.io/unit-4-game/" target="_blank">click to try</a></button>
-                <button type="button" class="btn btn-danger" style=" background-color: #2a2a2a"><a
-                        href="https://github.com/Ferewtucho/unit-4-game" target="_blank">Click to see the
-                        Code</a></button>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- Education  -->
-    <div class="container" id="education" style="padding-top: 20px;padding-bottom: 48px; text-align:center;">
-
-        <div class="row">
-
-            <h1 class="title" data-aos="fade-down"
-                style="border-bottom: solid #fff; width: 300px; margin: 0 auto 0; padding-bottom: 20px; ">Education
-            </h1>
-            <br>
-            <br>
-            <div class="col-md-6">
-                <span style="color: #fff"> <i class="fas fa-graduation-cap fa-2x" style="color: green"></i>
-                    <h3> CULTURAL SCIENCE TECHNOLOGY A.S </h3>
-                </span>
-                <p>Community College of Philadelphia</p>
-
-            </div>
-            <div class="col-md-6">
-                <span style="color: #fff"><i class="fas fa-laptop-code fa-2x" style="color: yellow"></i>
-                    <h3> WEB DEVELOPMENT </h3>
-                </span>
-                <p>University of Pennsylvania</p>
-            </div>
-
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-
-
-    <!-- Footer -->
-    <!-- <footer class="page-footer font-small blue" style = "background: #28262e; padding-bottom: 5px; position: relative; bottom: 0; left: 0; width: 100%;"> -->
-    <div class="jumbotron sect footer" id="contact"
-        style="color: #ffffff; position: relative; bottom: 0; left: 0; width: 100%; display: inline-block; height: 15%; padding-top: 5px; padding-bottom: 5px;">
-        <div class="container" style="text-align: center">
-
-
-            <h6 style="color: #e0684b;text-shadow: 2px 2px 4px #000000 ">Don’t be a stranger<span style="color:#ffffff
-                    ;text-shadow: 2px 2px 4px #000000;">, "just say hello”</span> </h6>
-
 
             <div class="row">
-                <div class="col-md-3">
-                    <a href="mailto:ferewtucho@gmail.com"><i class="fas fa-envelope fa-2x"
-                            style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.16)"></i></a>
-                </div>
-                <div class="col-md-3">
-                    <a href="https://www.linkedin.com/in/ferew-tucho-627880167/" target="_blank"><i
-                            class="fab fa-linkedin fa-2x"
-                            style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.16); color: #2f77b0"></i></a>
-                </div>
-                <div class="col-md-3">
 
-                    <a href="https://github.com/Ferewtucho" target="_blank"><i class="fab fa-github-alt fa-2x"
-                            style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.16)"></i></a>
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--4">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">
+                                    Eat-Da-Burger!
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Eat-Da-Burger! is a restaurant app that lets users input the names of burgers
+                                        they'd like to eat.</li>
+                                    <li>Developed using HTML5, CSS3, NodeJS, MySQL, Express, method-override,
+                                        Handlebars, JavaScript, jQuery and Bootstrap.</li>
+                                    <li> <a href="https://nameless-bayou-23172.herokuapp.com/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/burger" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <br>
-                <div class="col-md-3">
-                    <button id="hovereffect" type="button" onclick="window.open('assets/img/Ferew-Tucho.pdf')"><i
-                            class="fas fa-file-download" download> </i> Resume</button>
+
+                <div class="col-1-of-3" data-aos="fade-down">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--5">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">
+                                    Friend Finder
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Node, express app that finds friend matches after taking 10 question survey.
+                                    </li>
+                                    <li>Built with HTML5, CSS3, JavaScript, Jquery, Express, Path, Body-parser, Node.JS
+                                        and MysQl Database.</li>
+                                    <li> <a href="https://warm-headland-58753.herokuapp.com/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/FriendFinder" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--6">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">
+                                    Giphy
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Front-end app thats accesses the GIPHY API and generates 25 static GIPHY images.
+                                        Click on an image to pause or play the GIF.</li>
+                                    <li>Built with HTML5, CSS3, JavaScript, Jquery, Ajax</li>
+                                    <li> <a href="https://ferewtucho.github.io/Giphy/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/Giphy" target="_blank"class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <br>
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://ferewtucho.me"> Ferew Tucho</a>
+
+            <div class="row">
+
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--7">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">
+                                    Black History Trivia Game
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Answer 10 questions as quickly and efficiently as possible. Players have 20
+                                        seconds to answer each multiple choice question. The game let’s you know if the
+                                        answer was correct, incorrect or unanswered.</li>
+
+                                    <li>Built by JavaScript jQuery HTML5 CSS3</li>
+                                    <li> <a href="https://ferewtucho.github.io/TriviaGame/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/TriviaGame" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3" data-aos="fade-down">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--8">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">
+                                    NFL Hang Man
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>This is a simple hangman game To play, just guess a letter by typing your guess
+                                        on your keyboard.</li>
+                                    <li>Built by JavaScript jQuery HTML5 CSS3</li>
+                                    <li> <a href="https://ferewtucho.github.io/Word-Guess-Game/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/Word-Guess-Game" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-1-of-3" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--9">
+                                &nbsp;
+                            </div>
+
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">
+                                    Star wars RPG Game
+                                </span>
+                            </h4>
+
+                            <div class="card__details">
+                                <ul>
+                                    <li>Star Wars Themed role playing game.</li>
+                                    <li>Bulit with HTML5, CSS3, Javascript & JQuery.</li>
+                                    <li> <a href="https://ferewtucho.github.io/unit-4-game/" target="_blank" class="btn-card"><i class="far fa-eye"></i>
+                                            <a href="https://github.com/Ferewtucho/unit-4-game" target="_blank" class="btn-card"><i
+                                                    class="fab fa-github"></i> <i class="fas fa-code"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- Copyright -->
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+            <div class="footer__hello-box">
+                    <h2 class="footer__hello heading-secondary" style = "font-size: 3rem">Dont be a Stranger, "Just say Hello"</h2>
+            </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="https://github.com/Ferewtucho" target="_blank" class="footer__link">Github</a>
+                </li>
+                <li class="footer__item">
+                  <a href="https://www.linkedin.com/in/ferew-tucho-627880167/" target="_blank" class="footer__link">Linkedin</a>
+                </li>
+                <li class="footer__item">
+                    <a href="mailto:ferewtucho@gmail.com" class="footer__link">Email</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <p class="footer__copyright">
+              Bulit by <a href="#" class="footer__link">Ferew Tucho</a> for his
+              online Portfolio. &copy; 2018 Copyright.
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
         </div>
 
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                col 2 of 3
+            </div>
+        </div>
 
-        <!-- Aos javascript link -->
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+        </div>
 
-        <script src="assets/js/aos.js"></script>
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+                col 2 of 4
+            </div>
+        </div>
 
-        <!-- Set animation duration time also it will stop animation on mobile devices for better user expriance -->
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+                col 3 of 4
+            </div>
+        </div>
 
-        <script type=text/javascript> AOS.init({ duration: 1600, }); // window.addEventListener('load', AOS.refresh);
-            </script> <!-- Javascript link -->
+    </section> -->
 
-    <script src = "assets/js/time.js"></script>
+    
 
-        <!-- Particle js CDN-->
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script type="text/javascript">
-            particlesJS.load('particles-js', 'particles.json', function () {
-                // console.log('callback - particles.js config loaded');
-            });
-        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- Test -->
+    <script src="assets/js/test.js"></script>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Aos javascript link -->
+    <script src="assets/js/aos.js"></script>
 
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <script type=text/javascript> AOS.init({ duration: 1600, }); // window.addEventListener('load', AOS.refresh);
+        </script> <!-- Javascript link -->
+
+    <!-- Particle js CDN-->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript">
+        particlesJS.load('particles-js', 'particles.json', function () {
+            // console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,150 @@
+.card {
+  // Functionality
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  max-height: 80rem;
+  background-color: $color-white;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+  &__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-green,
+          $color-secondary-dark
+        ),
+        url(../img/pro-1.jpg);
+    }
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-yellow,
+          $color-primary-dark
+        ),
+        url(../img/pro-2.jpg);
+    }
+    &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-red,
+          $color-tertiary-dark
+        ),
+        url(../img/pro-3.jpg);
+    }
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-green,
+          $color-secondary-dark
+        ),
+        url(../img/pro-4.jpg);
+    }
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-yellow,
+          $color-primary-dark
+        ),
+        url(../img/pro-5.jpg);
+    }
+    &--6 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-red,
+          $color-tertiary-dark
+        ),
+        url(../img/pro-6.jpg);
+    }
+    &--7 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-green,
+          $color-secondary-dark
+        ),
+        url(../img/pro-7.jpg);
+    }
+    &--8 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-yellow,
+          $color-primary-dark
+        ),
+        url(../img/pro-8.jpg);
+    }
+    &--9 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-red,
+          $color-tertiary-dark
+        ),
+        url(../img/pro-9.jpg);
+    }
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-white;
+    text-align: right;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%;
+  }
+
+  &__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+    }
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-yellow, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-red, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
+  }
+
+  &__details {
+    padding: 3rem;
+
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
+        }
+      }
+    }
+  }
+}
