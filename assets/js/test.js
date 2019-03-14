@@ -17,8 +17,6 @@ $(document).ready(function() {
 
   $(".scroll-trigger").click(function(e) {
     var linkHref = $(this).attr("href");
-    console.log(linkHref);
-    console.log($(linkHref).offset().top);
 
     $("html, body").animate(
       {
